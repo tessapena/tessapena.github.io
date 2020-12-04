@@ -1,0 +1,268 @@
+body {
+  font-family: 'Varta', sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(../img/blue-snow.png);
+}
+
+/*Header navigation here*/
+.about {
+  width: 96%;
+  height: 80%;
+  padding: 2%;
+  background-size: border-box;
+  background-image: url(../img/ProfileBanner.jpg);
+  background-size:cover;
+  line-height: 30px;
+}
+
+ul, li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10%;
+  padding right: 10%;
+}
+
+ul {
+  width: 100%;
+}
+
+li > a {
+  color: black;
+}
+
+nav {
+  background-color: rgba(150, 205, 250, 98);
+  color: black;
+  display: inline-flex;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+i {
+ font-size: 4em;
+}
+
+.box {
+  background-color: rgba(255,255,255,0.95);
+  width: 17%;
+  margin-right: auto;
+  padding: 4.5%;
+  box-shadow: 5px 5px lightgray;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*text decoration styling starts here*/
+span.keyword {
+  color: red;
+  transition: 1s;
+}
+
+span.keyword:hover {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgba(160, 77, 255, 100);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: cyan;
+}
+
+/*image & misc styling start here*/
+.albumcover {
+  float: left;
+  width: 54%;
+  margin-right: 5%;
+}
+
+.albumcover > img {
+  width: 100%;
+}
+
+.daisycover {
+  float: right;
+  width: 54%;
+  margin-left: 5%;
+}
+
+
+.daisycover > img {
+  width: 100%;
+}
+
+.thankyoucover {
+  float: left;
+  width: 30%;
+}
+
+.thankyoucover > img {
+  width: 106%;
+  position: relative;
+  top: 23px;
+}
+
+.covidcover {
+  width: 30%;
+  float: left;
+  margin-left: 5%;
+}
+
+.covidcover > img {
+  width: 100%;
+}
+
+.drinkcover {
+  width: 30%;
+  float: right;
+  margin-right: 2%;
+}
+
+.drinkcover > img {
+  width: 107%;
+}
+
+.tablecover {
+  color: navy;
+  background-color: lightblue;
+}
+
+table {
+  position: relative;
+  box-sizing: border-box;
+  width: 1500px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 2px solid navy;
+  width: 100%;
+}
+
+tr,td {
+  border: 5px solid lightblue;
+  padding: 1%;
+  margin: 50%;
+  text-align: center;
+}
+
+video {
+  width: 60%;
+  padding: 3%;
+  align-content: center;
+  margin-left: 17%;
+}
+
+
+.extra {
+  transform: translateY(86px);
+  text-align: center;
+  font-size: 22px;
+  line-height: 12px;
+}
+
+.extraback {
+  position: absolute;
+  z-index: -1000;
+  padding-right: 5%;
+  transform: translateY(15px);
+}
+
+.extraback >img {
+  width: 100%;
+}
+
+
+.Contact {
+}
+
+.hidden > img {
+  visibility: hidden;
+
+}
+
+ul,li {
+  list-style-type: row;
+  display: inline-flex;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+}
+
+ul {
+/*  width: 75%;*/
+}
+
+li > a {
+  color: white;
+}
+
+nav {
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+}
+
+nav > a {
+  color: white;
+  padding-left: 3%;
+
+}
+
+/*email subscription starts here*/
+form {
+  width: 80%;
+  padding: 2%;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+.newsletter {
+  align-self: baseline;
+}
+
+.emailbox {
+  width: 70%;
+  margin-right: 5%;
+}
+
+.submitbutton {
+  padding: 2%;
+  width: 15%;
+}
+
+/*media queries start here*/
+@media all and (min-width: 320px) and (max-width: 780px) {
+  .box {
+    background-color: lightyellow;
+    opacity: 95%
+  }
+}
+
+@media all and (min-width: 790px) and (max-width: 1000px) {
+  .box {
+    background-color: lightpink;
+    opacity: 85%
+  }
+}
+
+@media all and (min-width: 300px) and (max-width: 700px) {
+  .tablecover {
+    background-color: lightgreen;
+  }
+}
